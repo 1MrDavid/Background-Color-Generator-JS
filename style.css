@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.bgGenerator_text {
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 3rem;
+    border-radius: 16px;
+}
+body button {
+    margin-top: 2rem;
+    padding: 0.7rem;
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+body button:hover {
+    border: 1px white solid;
+    transform: scale(1.1);
+    cursor: pointer;
+}
